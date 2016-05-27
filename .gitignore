@@ -39,3 +39,5 @@ dist
 .DS_Store
 
 db/dev/*.csv
+db/dev/*.db
+
