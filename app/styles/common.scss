@@ -1,0 +1,59 @@
+div.center-card {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+div.stackable-card {
+  display: inline-block;
+  margin: 0.25em;
+  vertical-align: top;
+  min-height: 260px;
+}
+
+p.note {
+  padding-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+span.note {
+  display: block;
+  padding-top: 0.5em;
+  margin-bottom: 0em;
+  font-size: 0.645em;
+  line-height: 1.5em;
+}
+
+.mdl-navigation__link {
+  color: #acf;
+  min-height: 48px;
+  border-bottom: 0.25em solid transparent;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align:bottom;
+  text-transform: uppercase;
+  line-height:64px;
+}
+
+.mdl-navigation__link:hover {
+  border-bottom: 0.25em solid #acf;
+}
+
+.mdl-layout-title {
+  line-height: 64px;
+  text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #fefefe;
+}
+
+#loadingMessage {
+  font-size: x-small;
+}
+
+#err_404_box > div.mdl-card__title {
+  color: #fafafa;
+  background: url('/images/missing-link.jpg') center / cover;
+  height:121px;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "offshore-panamapapers-search",
+  "version": "0.1.0",
+  "description": "PROJECT_DESC_HERE",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lieldulev/offshore-panamapapers-search.git"
+  },
+  "keywords": ["KEYWORDS_HERE"],
+  "author": "Liel Dulev <lieldulev@gmail.com> (http://dulev.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lieldulev/offshore-panamapapers-search/issues"
+  },
+  "homepage": "https://github.com/lieldulev/offshore-panamapapers-search#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-wrap": "^0.11.0",
+    "merge-stream": "^1.0.0",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "base-64": "^0.1.0",
+    "config": "^1.20.1",
+    "es6-promise": "^3.1.2",
+    "express": "^4.13.4",
+    "express-request-proxy": "^2.0.0",
+    "serve-static": "^1.10.2",
+    "utf8": "^2.1.1"
+  }
+}
