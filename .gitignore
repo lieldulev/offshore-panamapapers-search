@@ -38,3 +38,4 @@ dist
 # osx shit
 .DS_Store
 
+db/dev/*.csv
