@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/lieldulev/offshore-panamapapers-search.git"
   },
-  "keywords": ["KEYWORDS_HERE"],
+  "keywords": [
+    "KEYWORDS_HERE"
+  ],
   "author": "Liel Dulev <lieldulev@gmail.com> (http://dulev.com)",
   "license": "ISC",
   "bugs": {
@@ -38,6 +40,7 @@
     "express": "^4.13.4",
     "express-request-proxy": "^2.0.0",
     "serve-static": "^1.10.2",
+    "sqlite3": "^3.1.4",
     "utf8": "^2.1.1"
   }
 }
